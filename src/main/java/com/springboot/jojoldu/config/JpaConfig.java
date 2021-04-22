@@ -1,4 +1,4 @@
-package com.springboot.jojoldu.config.auth;
+package com.springboot.jojoldu.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;

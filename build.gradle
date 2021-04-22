@@ -34,7 +34,11 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-mustache')
     // oauth2
     compile('org.springframework.boot:spring-boot-starter-oauth2-client')
-
+    // session
+    compile('org.springframework.session:spring-session-jdbc')
+    // test security
+    testCompile('org.springframework.security:spring-security-test')
+    // test starter
     testCompile('org.springframework.boot:spring-boot-starter-test')
     //testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
     //testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
