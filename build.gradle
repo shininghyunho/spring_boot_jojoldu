@@ -36,6 +36,8 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-oauth2-client')
     // session
     compile('org.springframework.session:spring-session-jdbc')
+    // MariaDB
+    compile("org.mariadb.jdbc:mariadb-java-client")
     // test security
     testCompile('org.springframework.security:spring-security-test')
     // test starter
