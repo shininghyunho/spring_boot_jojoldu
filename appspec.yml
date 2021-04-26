@@ -1,7 +1,0 @@
-# s3에 저장된 zip파일로 codedeploy에서 배포함
-version: 0.0
-os: linux
-files:
-  - source: /
-    destination: /home/ec2-user/app/step2/zip/
-    overwrite: yes
