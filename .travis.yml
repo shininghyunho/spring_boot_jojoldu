@@ -24,7 +24,8 @@ before_install:
 deploy:
   # for s3
   - provider: s3
-    access_key_id: $AWS_ACCESS_KEY # Travis repo settings에 설정된 값들
+    access_key_id:
+      secure: $AWS_ACCESS_KEY # Travis repo settings에 설정된 값들
     secret_access_key: $AWS_SECRET_KEY
     bucket: jojoldu-springboot-build # S3 버킷
     region: ap-northeast-2
