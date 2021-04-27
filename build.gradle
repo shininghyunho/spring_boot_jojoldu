@@ -16,7 +16,8 @@ apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
 group 'org.example'
-version '1.0.1-SNAPSHOT'
+// 버전에 날짜 추가해줌
+version '1.0.1-SNAPSHOT'+new Date().format("yyyyMMddHHmmss")
 sourceCompatibility = 1.8
 
 repositories {
