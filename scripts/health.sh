@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-ABSPATH=$(readlink - f $0)
+ABSPATH=$(readlink -f $0)
 ABSDIR=$(dirname $ABSPATH)
 # profile.sh 설정(일종의 import)
 source ${ABSDIR}/profile.sh
