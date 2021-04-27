@@ -4,7 +4,7 @@
 
 function find_idle_profile(){
   # 현재 엔진엑스가 바라보고있는 스프링부트
-  RESPONSE_CODE$(curl -s -o /dev/null -w "%{http_code}" http://localhost/profile)
+  RESPONSE_CODE=$(curl -s -o /dev/null -w "%{http_code}" http://localhost/profile)
 
   if [ ${RESPONSE_CODE} -ge 400 ] # 반환값이 400 보다 크면 에러
   then
